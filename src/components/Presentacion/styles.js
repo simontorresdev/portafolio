@@ -13,6 +13,8 @@ export const ContenedorPresentacion = styled.section`
 `
 export const Columna1 = styled.div`
   width: 35%;
+  display: flex;
+  align-items: center;
 `
 export const Column2 = styled.div`
   width: 65%;
@@ -30,7 +32,29 @@ export const PresentacionCol1 = styled.div`
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
-    color: ${colors.rojo}
+    color: ${colors.rojo};
+    position: relative;
+  }
+  & h3::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 3px;
+    background: #d74b5c;
+    left: 80px;
+    top: 8px;
+  }
+  & h2{
+    text-transform: uppercase;
+    margin: 15px 0;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  & h1{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-transform: uppercase;
   }
 `
 export const PresentacionCol2 = styled.div`
@@ -41,4 +65,9 @@ export const PresentacionBottom = styled.div`
 `
 export const PresentacionCol3 = styled.div`
   width: 100%;
+  & p{
+    line-height: 1.5em;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
 `

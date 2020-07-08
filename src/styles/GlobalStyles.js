@@ -27,5 +27,19 @@ export const GlobalStyles = createGlobalStyle`
     }
 `
 export const Boton = styled.button`
-  
+    background: ${colors.rojo};
+    border-radius: 4px;
+    padding: 10px 32px;
+    color: ${colors.blanco};
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    transition: .3s;
+    cursor: pointer;
+    &:hover{
+        background: transparent;
+        color: ${colors.rojo};
+        border: 2px solid ${colors.rojo};
+    }
 `
