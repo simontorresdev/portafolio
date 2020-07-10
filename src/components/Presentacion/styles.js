@@ -3,12 +3,11 @@ import { colors } from '../../styles/GlobalStyles'
 
 export const ContenedorPresentacion = styled.section`
   display: flex;
+  max-width: 1180px;
+  margin: 0 auto;
   & .gatsby-image-wrapper{
-    width: 100%;
+    width: 90%;
     border-radius: 4px;
-  }
-  & .gatsby-image-wrapper img{
-    object-position: top left !important;
   }
 `
 export const Columna1 = styled.div`
@@ -48,10 +47,10 @@ export const PresentacionCol1 = styled.div`
     text-transform: uppercase;
     margin: 15px 0;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 32px;
   }
   & h1{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 15px;
     text-transform: uppercase;
