@@ -35,22 +35,6 @@ module.exports = {
           {
             family: 'Montserrat',
             variants: ['300', '400', '600', '700']
-          },
-          {
-            family: 'Open Sans',
-            variants: ['300', '400', '600', '700']
-          },
-          {
-            family: 'Muli',
-            variants: ['400']
-          },
-          {
-            family: 'Ubuntu',
-            variants: ['300', '400', '500', '700']
-          },
-          {
-            family: 'PT Sans Narrow',
-            variants: ['400', '700']
           }
         ]
       }
