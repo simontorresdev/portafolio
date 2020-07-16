@@ -1,11 +1,11 @@
 import React from 'react'
 import Header from '../Header'
-import { GlobalStyles } from '../../styles/GlobalStyles'
+// import { GlobalStyles } from '../../styles/GlobalStyles'
 
 const Layout = ({ children }) => {
   return (
     <>
-      <GlobalStyles />
+      {/* <GlobalStyles /> */}
       <Header />
       <main>{children}</main>
     </>

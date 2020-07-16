@@ -1,8 +1,12 @@
 const React = require('react')
+const { GlobalStyles } = require('./src/styles/GlobalStyles')
 const Layout = require('./src/components/Layout').default
 
 exports.wrapRootElement = ({ element }) => (
-  <Layout>
-    {element}
-  </Layout>
+  <>
+    <GlobalStyles />
+    <Layout>
+      {element}
+    </Layout>
+  </>
 )
