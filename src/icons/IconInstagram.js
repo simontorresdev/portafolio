@@ -1,8 +1,8 @@
 import * as React from 'react'
 
-function IconInstagram (props) {
+function IconInstagram () {
   return (
-    <svg height={512} viewBox='0 0 512 512' width={512} {...props}>
+    <svg height={22} viewBox='0 0 22 22' width={22}>
       <path
         d='M305 256c0 27.063-21.938 49-49 49s-49-21.938-49-49 21.938-49 49-49 49 21.938 49 49zm0 0'
         data-original='#000000'
