@@ -5,8 +5,15 @@ module.exports = {
     author: '@gatsbyjs'
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
+    'babel-plugin-styled-components',
+    {
+      resolve: 'babel-plugin-styled-components',
+      options: {
+        ssr: true
+      }
+    },
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
