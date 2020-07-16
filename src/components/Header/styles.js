@@ -6,8 +6,8 @@ export const StyledHeader = styled.header`
   height: 100vh;
   width: 220px;
   position: fixed;
-  left: 0;
   top: 0;
+  left: 0;
   border-right: 1px solid ${colors.borde};
   display: flex;
   flex-direction: column;

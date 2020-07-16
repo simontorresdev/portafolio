@@ -12,7 +12,7 @@ const Header = () => (
 
     <ContenedorLogo>
       <Link to='/'>
-        <Image name='logo.png' />
+        {/* <Image name='logo.png' /> */}
       </Link>
     </ContenedorLogo>
 
