@@ -22,8 +22,10 @@ export const GlobalStyles = createGlobalStyle`
         font-family: 'Montserrat';
         padding: 50px;
     }
-    main{
-        margin-left: 220px;
+    @media (max-width: 768px) {
+        body{
+            padding: 30px;
+        }
     }
 `
 export const Boton = styled.button`

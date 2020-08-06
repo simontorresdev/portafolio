@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../Header'
 import { Helmet } from 'react-helmet'
 import { GlobalStyles } from '../../styles/GlobalStyles'
+import { MyMain } from './styles'
 
 const Layout = ({ children }) => {
   return (
@@ -15,7 +16,7 @@ const Layout = ({ children }) => {
       </Helmet>
       <GlobalStyles />
       <Header />
-      <main>{children}</main>
+      <MyMain>{children}</MyMain>
     </>
   )
 }

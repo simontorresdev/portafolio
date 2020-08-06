@@ -9,11 +9,26 @@ export const ContenedorPresentacion = styled.section`
     width: 90%;
     border-radius: 4px;
   }
+  @media (max-width: 1025px) {
+    flex-direction: column;
+    & .gatsby-image-wrapper{
+      width: 80%;
+    }
+  }
+  @media (max-width: 768px) {
+    & .gatsby-image-wrapper{
+      width: 100%;
+    }
+  }
 `
 export const Columna1 = styled.div`
   width: 35%;
   display: flex;
   align-items: center;
+  @media (max-width: 1025px) {
+    width: 100%;
+    justify-content: center;
+  }
 `
 export const Column2 = styled.div`
   width: 65%;
@@ -21,6 +36,10 @@ export const Column2 = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 0 50px;
+  @media (max-width: 1025px) {
+    width: 100%;
+    padding: 0px;
+  }
 `
 export const PresentacionTop = styled.div`
   display: flex;
