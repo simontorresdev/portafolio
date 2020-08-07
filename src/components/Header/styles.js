@@ -16,12 +16,6 @@ export const StyledHeader = styled.header`
     display: none;
   }
 `
-export const ContenedorLogo = styled.div`
-  padding: 24px;
-  & .gatsby-image-wrapper{
-    width: 125px;
-  }
-`
 export const ContenedorRedes = styled.nav`
   padding: 24px;
   display: flex;

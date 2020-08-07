@@ -29,7 +29,10 @@ export const Presentación = () => (
       </PresentacionTop>
       <PresentacionBottom>
         <PresentacionCol3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula arcu quis odio rutrum pretium. Ut tempor nunc vel suscipit varius. Maecenas aliquam, lectus vel tristique rutrum, massa mauris vestibulum nulla, vel tempor mi ligula feugiat ipsum.</p>
+          <p>
+            Soy un desarrollador web. Venezolano, pero actualmente viviendo en Colombia. Puedes encontrarme en las principales
+            redes sociales como @SimonTorresDev. Me dedico al desarrollo de aplicaciones web y móviles.
+          </p>
           <Link to='/sobre-mi'>
             <Boton>Ver más</Boton>
           </Link>
