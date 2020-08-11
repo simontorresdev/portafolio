@@ -22,9 +22,14 @@ export const GlobalStyles = createGlobalStyle`
         font-family: 'Montserrat';
         padding: 50px;
     }
+    @media (max-width: 1025px) {
+        body{
+            padding: 50px 50px 75px 50px;
+        }
+    }
     @media (max-width: 768px) {
         body{
-            padding: 30px;
+            padding: 30px 30px 75px 30px;
         }
     }
 `

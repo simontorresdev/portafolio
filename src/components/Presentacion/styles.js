@@ -6,7 +6,7 @@ export const ContenedorPresentacion = styled.section`
   max-width: 1180px;
   margin: 0 auto;
   & .gatsby-image-wrapper{
-    width: 90%;
+    width: 85%;
     border-radius: 4px;
   }
   @media (max-width: 1025px) {
