@@ -6,7 +6,7 @@ import { Proyectos } from '../components/Proyectos'
 const IndexPage = () => (
   <>
     <SEO title='Inicio' />
-    <Presentación />
+    <Presentación boton imagen='fondoHome.png' />
     <Proyectos />
   </>
 )

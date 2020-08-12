@@ -13,10 +13,10 @@ import {
   PresentacionCol3
 } from './styles'
 
-export const Presentación = () => (
+export const Presentación = ({ boton, imagen }) => (
   <ContenedorPresentacion>
     <Columna1>
-      <Image name='fondoHome.png' />
+      <Image name={imagen} />
     </Columna1>
     <Column2>
       <PresentacionTop>
@@ -33,9 +33,10 @@ export const Presentación = () => (
             Soy un desarrollador web. Venezolano, pero actualmente viviendo en Colombia. Puedes encontrarme en las principales
             redes sociales como @SimonTorresDev. Me dedico al desarrollo de aplicaciones web y móviles.
           </p>
-          <Link to='/sobre-mi'>
-            <Boton>Ver más</Boton>
-          </Link>
+          {boton &&
+            <Link to='/sobre-mi'>
+              <Boton>Ver más</Boton>
+            </Link>}
         </PresentacionCol3>
       </PresentacionBottom>
     </Column2>

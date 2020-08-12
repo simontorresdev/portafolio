@@ -29,7 +29,7 @@ const Navbar = () => (
     <li>
       <Link to='/contacto' activeClassName='active'>
         <IconContact />
-        <span>Contáctenos</span>
+        <span>Contacto</span>
       </Link>
     </li>
   </Menu>
