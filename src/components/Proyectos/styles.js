@@ -4,14 +4,22 @@ import styled, { css } from 'styled-components'
 export const ContenedorProyectos = styled.section`
   max-width: 1180px;
   margin: 30px auto 0 auto;
-  ${props => props.pageProject && css` 
-    margin: 0 auto;
-  `}
   & > h2 {
     font-size: 22px;
     font-weight: 600;
     padding-bottom: 24px;
   }
+  ${props => props.pageProject && css` 
+    margin: 0 auto;
+    & > h2 {
+      display: none;
+    }
+    @media (max-width: 1025px) {
+      & > h2 {
+        display: block;
+      }
+    }
+  `}
 `
 export const GridProjects = styled.ul`
   display: grid;

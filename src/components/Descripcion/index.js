@@ -22,7 +22,7 @@ export const Descripcion = () => {
         <h3>Aprendizaje</h3>
         <p>Me considero una persona autodidacta, día a día dedico tiempo para aprender y así ser un mejor profesional. Hoy en día tenemos acceso a mucha educación de calidad al alcance de la mano gracias a la tecnología, aprendo de plataformas como Platzi, Udemy, Youtube, EDteam y por supuesto también de la documentación.</p>
         <h3>Tecnologías</h3>
-        <p>Algunas de las tecnologías que domino son: HTML5, CSS3, Javascript, React Js, React Native, Next Js, Gatsby Js.</p>
+        <p>Algunas de las tecnologías que domino son: HTML5, CSS3, Javascript, Github, React Js, React Native, Next Js, Gatsby Js.</p>
       </ColExt>
 
       <ColCen>

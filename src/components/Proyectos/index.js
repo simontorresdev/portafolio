@@ -11,8 +11,7 @@ export const Proyectos = ({ arrayProjects, title, pageProject }) => {
   console.log(arrayProjects)
   return (
     <ContenedorProyectos pageProject={pageProject}>
-      {!pageProject &&
-        <h2>{title}</h2>}
+      <h2>{title}</h2>
       <GridProjects>
         {arrayProjects.map(id =>
           <ListingProject
