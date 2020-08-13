@@ -74,6 +74,11 @@ export const PresentacionCol1 = styled.div`
     margin-bottom: 15px;
     text-transform: uppercase;
   }
+  @media (max-width: 1025px) {
+    & h3{
+      margin-top: 10px;
+    }
+  }
 `
 export const PresentacionCol2 = styled.div`
   width: 40%;

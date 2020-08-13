@@ -7,12 +7,14 @@ import Javascript from '../../icons/tecnologias/Javascript'
 import ReactIcon from '../../icons/tecnologias/React'
 import Gatsby from '../../icons/tecnologias/Gatsby'
 
-export const Proyectos = () => {
+export const Proyectos = ({ arrayProjects, title, pageProject }) => {
+  console.log(arrayProjects)
   return (
-    <ContenedorProyectos>
-      <h2>Proyectos</h2>
+    <ContenedorProyectos pageProject={pageProject}>
+      {!pageProject &&
+        <h2>{title}</h2>}
       <GridProjects>
-        {[1, 2, 3, 4].map(id =>
+        {arrayProjects.map(id =>
           <ListingProject
             key={id}
             nombre='Nombre del project'

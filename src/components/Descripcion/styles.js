@@ -13,9 +13,8 @@ export const ColExt = styled.div`
   padding: 0 20px;
   & h3{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 15px;
-    text-transform: uppercase;
   }
   & p{
     line-height: 1.5em;

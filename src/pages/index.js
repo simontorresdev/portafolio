@@ -7,7 +7,7 @@ const IndexPage = () => (
   <>
     <SEO title='Inicio' />
     <Presentación boton imagen='fondoHome.png' />
-    <Proyectos />
+    <Proyectos arrayProjects={[1, 2, 3, 4]} title='Mis proyectos' />
   </>
 )
 

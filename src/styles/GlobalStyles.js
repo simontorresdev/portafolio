@@ -22,6 +22,9 @@ export const GlobalStyles = createGlobalStyle`
         font-family: 'Montserrat';
         padding: 50px;
     }
+    main > #gatsby-focus-wrapper {
+        width: 100%;
+    }
     @media (max-width: 1025px) {
         body{
             padding: 50px 50px 75px 50px;
