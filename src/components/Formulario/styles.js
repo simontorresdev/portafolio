@@ -42,6 +42,10 @@ export const InputText = styled.input`
   border: 1px solid ${colors.blanco};
   border-radius: 5px;
   padding: 10px 20px;
+  transition: all ease .3s;
+  &:focus{
+    outline: none;
+  }
   @media (max-width: 768px) {
     margin-bottom: 16px;
   }
@@ -62,6 +66,10 @@ export const InputTextarea = styled.textarea`
   border: 2px solid ${colors.blanco};
   border-radius: 5px;
   padding: 10px 20px;
+  transition: all ease .3s;
+  &:focus{
+    outline: none;
+  }
   @media (max-width: 768px) {
     margin-bottom: 16px;
   }

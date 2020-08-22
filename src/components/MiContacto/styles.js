@@ -62,6 +62,7 @@ export const Dato = styled.div`
 export const CajaIcono = styled.a`
   display: flex;
   margin-top: 20px;
+  text-decoration: none;
   & h3{
     font-size: 18px;
     margin-left: 15px;
