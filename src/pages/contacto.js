@@ -1,10 +1,11 @@
 import React from 'react'
 import SEO from '../components/seo'
+import { MiContacto } from '../components/MiContacto'
 
 const Contacto = () => (
   <>
     <SEO title='Contacto' />
-    <h1>Contacto</h1>
+    <MiContacto />
   </>
 )
 
