@@ -2,11 +2,11 @@ import React from 'react'
 import Image from '../image'
 import { ContenedorListing, ContenedorImagen, ContenedorDescripcion } from './styles'
 
-export const ListingProject = ({ nombre, descripcion, icons }) => {
+export const ListingProject = ({ nombre, descripcion, icons, img }) => {
   return (
     <ContenedorListing>
       <ContenedorImagen>
-        <Image name='top.jpg' />
+        <Image name={img} />
         <section>
           <div>
             <nav>

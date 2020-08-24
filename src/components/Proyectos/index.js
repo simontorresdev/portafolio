@@ -8,17 +8,17 @@ import ReactIcon from '../../icons/tecnologias/React'
 import Gatsby from '../../icons/tecnologias/Gatsby'
 
 export const Proyectos = ({ arrayProjects, title, pageProject }) => {
-  console.log(arrayProjects)
   return (
     <ContenedorProyectos pageProject={pageProject}>
       <h2>{title}</h2>
       <GridProjects>
-        {arrayProjects.map(id =>
+        {arrayProjects.map((project, id) =>
           <ListingProject
             key={id}
-            nombre='Nombre del project'
+            nombre={project.name}
             descripcion='Proyecto realizado con React'
             icons={[<HTML5 />, <CSS3 />, <Javascript />, <ReactIcon />, <Gatsby />]}
+            img={project.img}
           />
         )}
       </GridProjects>
