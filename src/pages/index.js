@@ -2,15 +2,16 @@ import React from 'react'
 import SEO from '../components/seo'
 import { Presentación } from '../components/Presentacion'
 import { Proyectos } from '../components/Proyectos'
-import { listaProyectos } from '../proyectos'
+
+const listProjects = require('../proyectos')
 
 const IndexPage = () => {
-  console.log(listaProyectos)
+  const projects4 = listProjects.listaProyectos().slice(0, 4)
   return (
     <>
       <SEO title='Inicio' />
       <Presentación boton imagen='fondoHome.png' />
-      <Proyectos arrayProjects={listaProyectos} title='Mis proyectos' />
+      <Proyectos arrayProjects={projects4} title='Mis proyectos' />
     </>
   )
 }

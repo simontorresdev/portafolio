@@ -1,11 +1,13 @@
 import styled from 'styled-components'
-// import { colors } from '../../styles/GlobalStyles'
 
 export const ContenedorListing = styled.li`
   list-style: none;
   cursor: pointer;
   & img{
     border-radius: 4px;
+  }
+  & a{
+    text-decoration: none;
   }
 `
 export const ContenedorImagen = styled.div`
@@ -45,7 +47,9 @@ export const ContenedorImagen = styled.div`
     width: 32px;
     height: auto;
   }
-  & section svg.Next path{
+  & section svg.Next path,
+  & section svg.wordpress path,
+  & section svg.elementor path{
     fill: #fff;
   }
 `
@@ -57,6 +61,7 @@ export const ContenedorDescripcion = styled.div`
     line-height: 18px;
     margin-bottom: 3px;
     padding: 0;
+    color: #fff;
   }
   & h3{
     font-size: 12px;
