@@ -4,7 +4,7 @@ import { ContenedorListing, ContenedorImagen, ContenedorDescripcion } from './st
 import { Link } from 'gatsby'
 import { Html5, Css3, Javascript, IconReact, Next, Gatsby, Wordpress, Elementor } from '../../icons/tecnologias'
 
-export const ListingProject = ({ nombre, descripcion, icons, img, url }) => {
+export const ListingProject = ({ nombre, excerpt, icons, img, url }) => {
   return (
     <ContenedorListing>
       <Link to={`/${url}`}>
@@ -39,7 +39,7 @@ export const ListingProject = ({ nombre, descripcion, icons, img, url }) => {
         </ContenedorImagen>
         <ContenedorDescripcion>
           <h2>{nombre}</h2>
-          <h3>{descripcion}</h3>
+          <h3>{excerpt}</h3>
         </ContenedorDescripcion>
       </Link>
     </ContenedorListing>

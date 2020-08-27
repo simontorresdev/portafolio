@@ -2,58 +2,74 @@ const listaProyectos = () => ([
   {
     name: 'Lovicon',
     img: 'proyectolovicon.jpg',
-    description: 'Proyecto realizado con Gatsby JS',
+    excerpt: 'Proyecto realizado con Gatsby JS',
     url: 'lovicon',
-    technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Gatsby']
+    technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Gatsby'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien eget quam efficitur rutrum. Suspendisse nec ornare massa. Maecenas in leo vulputate, interdum nisi ut, scelerisque ipsum. Cras id orci eget metus congue ullamcorper eu eu eros. Nam quis dui enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin lobortis tortor dapibus, pulvinar nunc non, facilisis felis. Pellentesque lectus massa, rutrum non dignissim sit amet',
+    urlProject: 'https://manolo.com.co'
   },
   {
     name: 'Manolo',
     img: 'manolo.png',
-    description: 'Proyecto realizado con Wordpress',
+    excerpt: 'Proyecto realizado con Wordpress',
     url: 'manolo',
-    technologys: ['Html5', 'Css3', 'Javascript', 'Wordpress', 'Elementor']
+    technologys: ['Html5', 'Css3', 'Javascript', 'Wordpress', 'Elementor'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien eget quam efficitur rutrum. Suspendisse nec ornare massa. Maecenas in leo vulputate, interdum nisi ut, scelerisque ipsum. Cras id orci eget metus congue ullamcorper eu eu eros. Nam quis dui enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin lobortis tortor dapibus, pulvinar nunc non, facilisis felis. Pellentesque lectus massa, rutrum non dignissim sit amet',
+    urlProject: 'https://manolo.com.co'
   },
   {
     name: 'App podcast',
     img: 'podcast.png',
-    description: 'Proyecto realizado con Next JS',
+    excerpt: 'Proyecto realizado con Next JS',
     url: 'app-podcast',
-    technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Next']
+    technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Next'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien eget quam efficitur rutrum. Suspendisse nec ornare massa. Maecenas in leo vulputate, interdum nisi ut, scelerisque ipsum. Cras id orci eget metus congue ullamcorper eu eu eros. Nam quis dui enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin lobortis tortor dapibus, pulvinar nunc non, facilisis felis. Pellentesque lectus massa, rutrum non dignissim sit amet',
+    urlProject: 'https://manolo.com.co'
   },
   {
     name: 'Petgram',
     img: 'petgram.png',
-    description: 'Proyecto realizado con React JS',
+    excerpt: 'Proyecto realizado con React JS',
     url: 'petgram',
-    technologys: ['Html5', 'Css3', 'Javascript', 'React']
+    technologys: ['Html5', 'Css3', 'Javascript', 'React'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien eget quam efficitur rutrum. Suspendisse nec ornare massa. Maecenas in leo vulputate, interdum nisi ut, scelerisque ipsum. Cras id orci eget metus congue ullamcorper eu eu eros. Nam quis dui enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin lobortis tortor dapibus, pulvinar nunc non, facilisis felis. Pellentesque lectus massa, rutrum non dignissim sit amet',
+    urlProject: 'https://manolo.com.co'
   },
   {
     name: 'Lovicon2',
     img: 'proyectolovicon.jpg',
-    description: 'Proyecto realizado con Gatsby JS',
+    excerpt: 'Proyecto realizado con Gatsby JS',
     url: 'lovicon2',
-    technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Gatsby']
+    technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Gatsby'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien eget quam efficitur rutrum. Suspendisse nec ornare massa. Maecenas in leo vulputate, interdum nisi ut, scelerisque ipsum. Cras id orci eget metus congue ullamcorper eu eu eros. Nam quis dui enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin lobortis tortor dapibus, pulvinar nunc non, facilisis felis. Pellentesque lectus massa, rutrum non dignissim sit amet',
+    urlProject: 'https://manolo.com.co'
   },
   {
     name: 'Manolo2',
     img: 'manolo.png',
-    description: 'Proyecto realizado con Wordpress',
+    excerpt: 'Proyecto realizado con Wordpress',
     url: 'manolo2',
-    technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Gatsby']
+    technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Gatsby'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien eget quam efficitur rutrum. Suspendisse nec ornare massa. Maecenas in leo vulputate, interdum nisi ut, scelerisque ipsum. Cras id orci eget metus congue ullamcorper eu eu eros. Nam quis dui enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin lobortis tortor dapibus, pulvinar nunc non, facilisis felis. Pellentesque lectus massa, rutrum non dignissim sit amet',
+    urlProject: 'https://manolo.com.co'
   },
   {
     name: 'App podcast2',
     img: 'podcast.png',
-    description: 'Proyecto realizado con Next JS',
+    excerpt: 'Proyecto realizado con Next JS',
     url: 'app-podcast2',
-    technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Gatsby']
+    technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Gatsby'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien eget quam efficitur rutrum. Suspendisse nec ornare massa. Maecenas in leo vulputate, interdum nisi ut, scelerisque ipsum. Cras id orci eget metus congue ullamcorper eu eu eros. Nam quis dui enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin lobortis tortor dapibus, pulvinar nunc non, facilisis felis. Pellentesque lectus massa, rutrum non dignissim sit amet',
+    urlProject: 'https://manolo.com.co'
   },
   {
     name: 'Petgram2',
     img: 'petgram.png',
-    description: 'Proyecto realizado con React JS',
+    excerpt: 'Proyecto realizado con React JS',
     url: 'petgram2',
-    technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Gatsby']
+    technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Gatsby'],
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien eget quam efficitur rutrum. Suspendisse nec ornare massa. Maecenas in leo vulputate, interdum nisi ut, scelerisque ipsum. Cras id orci eget metus congue ullamcorper eu eu eros. Nam quis dui enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin lobortis tortor dapibus, pulvinar nunc non, facilisis felis. Pellentesque lectus massa, rutrum non dignissim sit amet',
+    urlProject: 'https://manolo.com.co'
   }
 ])
 

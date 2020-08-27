@@ -11,7 +11,7 @@ export const Proyectos = ({ arrayProjects, title, pageProject }) => {
           <ListingProject
             key={id}
             nombre={project.name}
-            descripcion={project.description}
+            excerpt={project.excerpt}
             icons={project.technologys}
             img={project.img}
             url={project.url}
