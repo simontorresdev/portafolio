@@ -22,12 +22,12 @@ const Header = () => (
           </a>
         </li>
         <li>
-          <a href='https://github.com/SimonATC' target='_blanck'>
+          <a href='https://www.linkedin.com/in/sim%C3%B3n-torres-840815176/' target='_blanck'>
             <Linkedin />
           </a>
         </li>
         <li>
-          <a href='https://github.com/SimonATC' target='_blanck'>
+          <a href='https://www.instagram.com/simontorresdev/' target='_blanck'>
             <Instagram />
           </a>
         </li>
