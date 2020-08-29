@@ -39,24 +39,49 @@ export const ContainerSingleProject = styled.section`
     margin-bottom: 15px;
   }
 `
-export const ContainerTechnologys = styled.nav`
+export const ContainerTechnologys = styled.div`
   margin: 30px 0;
   & h2{
     text-transform: uppercase;
-    margin: 15px 0;
+    margin: 15px 0 20px 0;
     font-weight: 600;
     font-size: 22px;
   }
   & ul{
     display: flex;
-    margin-top: 2 0px;
   }
   & ul li{
     list-style: none;
   }
   & li svg{
-    width: 32px;
+    width: 50px;
     height: 32px;
     margin: 0px 20px;
+  }
+  & li svg.Next{
+    width: 53px;
+    height: auto;
+  }
+  & li svg.Next path,
+  & li svg.wordpress path,
+  & li svg.elementor path{
+    fill: #fff;
+  }
+  & li svg.html path:nth-child(4),
+  & li svg.css path:nth-child(4){
+    fill: #fff;
+  } 
+  & li div p{
+    margin: 0;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+  }
+`
+export const ContainerLinks = styled.div`
+  & a:nth-child(2){
+    margin-left: 20px;
   }
 `

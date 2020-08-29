@@ -7,6 +7,7 @@ function IconCss3 () {
       height={30}
       viewBox='0 0 256 361'
       preserveAspectRatio='xMidYMid'
+      className='css'
     >
       <path
         d='M127.844 360.088L23.662 331.166.445 70.766h255.11l-23.241 260.36-104.47 28.962z'

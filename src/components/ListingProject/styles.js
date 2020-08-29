@@ -31,7 +31,7 @@ export const ContenedorImagen = styled.div`
     align-items: center;
     width: auto; 
   }
-  & section div nav{
+  & section div ul{
     background-color: #191922;
     border-radius: 4px;
     padding: 6px;
@@ -52,6 +52,10 @@ export const ContenedorImagen = styled.div`
   & section svg.elementor path{
     fill: #fff;
   }
+  & section svg.html path:nth-child(4),
+  & section svg.css path:nth-child(4){
+    fill: #fff;
+  } 
 `
 export const ContenedorDescripcion = styled.div`
   padding-top: 8px;

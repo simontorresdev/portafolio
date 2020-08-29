@@ -12,7 +12,7 @@ export const ListingProject = ({ nombre, excerpt, icons, img, url }) => {
           <Image name={img} />
           <section>
             <div>
-              <nav>
+              <ul>
                 {icons.map((icon, id) =>
                   <li key={id}>
                     {icon === 'Html5' &&
@@ -33,7 +33,7 @@ export const ListingProject = ({ nombre, excerpt, icons, img, url }) => {
                       <Elementor />}
                   </li>
                 )}
-              </nav>
+              </ul>
             </div>
           </section>
         </ContenedorImagen>

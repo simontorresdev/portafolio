@@ -6,7 +6,8 @@ const listaProyectos = () => ([
     url: 'lovicon',
     technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Gatsby'],
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien eget quam efficitur rutrum. Suspendisse nec ornare massa. Maecenas in leo vulputate, interdum nisi ut, scelerisque ipsum. Cras id orci eget metus congue ullamcorper eu eu eros. Nam quis dui enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin lobortis tortor dapibus, pulvinar nunc non, facilisis felis. Pellentesque lectus massa, rutrum non dignissim sit amet',
-    urlProject: 'https://manolo.com.co'
+    urlProject: 'http://loviconretail.co/',
+    git: 'https://github.com/interactivos123/Lovicon'
   },
   {
     name: 'Manolo',
@@ -19,12 +20,12 @@ const listaProyectos = () => ([
   },
   {
     name: 'App podcast',
-    img: 'podcast.png',
+    img: 'podcastPlatzi.png',
     excerpt: 'Proyecto realizado con Next JS',
     url: 'app-podcast',
     technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Next'],
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien eget quam efficitur rutrum. Suspendisse nec ornare massa. Maecenas in leo vulputate, interdum nisi ut, scelerisque ipsum. Cras id orci eget metus congue ullamcorper eu eu eros. Nam quis dui enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin lobortis tortor dapibus, pulvinar nunc non, facilisis felis. Pellentesque lectus massa, rutrum non dignissim sit amet',
-    urlProject: 'https://manolo.com.co'
+    urlProject: 'https://app-podcast.vercel.app/'
   },
   {
     name: 'Petgram',
@@ -33,7 +34,7 @@ const listaProyectos = () => ([
     url: 'petgram',
     technologys: ['Html5', 'Css3', 'Javascript', 'React'],
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien eget quam efficitur rutrum. Suspendisse nec ornare massa. Maecenas in leo vulputate, interdum nisi ut, scelerisque ipsum. Cras id orci eget metus congue ullamcorper eu eu eros. Nam quis dui enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin lobortis tortor dapibus, pulvinar nunc non, facilisis felis. Pellentesque lectus massa, rutrum non dignissim sit amet',
-    urlProject: 'https://manolo.com.co'
+    urlProject: 'https://petgram-lwj3yh1o8.vercel.app/'
   },
   {
     name: 'Lovicon2',
@@ -42,7 +43,8 @@ const listaProyectos = () => ([
     url: 'lovicon2',
     technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Gatsby'],
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien eget quam efficitur rutrum. Suspendisse nec ornare massa. Maecenas in leo vulputate, interdum nisi ut, scelerisque ipsum. Cras id orci eget metus congue ullamcorper eu eu eros. Nam quis dui enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin lobortis tortor dapibus, pulvinar nunc non, facilisis felis. Pellentesque lectus massa, rutrum non dignissim sit amet',
-    urlProject: 'https://manolo.com.co'
+    urlProject: 'https://manolo.com.co',
+    git: 'https://manolo.com.co'
   },
   {
     name: 'Manolo2',
@@ -51,16 +53,18 @@ const listaProyectos = () => ([
     url: 'manolo2',
     technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Gatsby'],
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien eget quam efficitur rutrum. Suspendisse nec ornare massa. Maecenas in leo vulputate, interdum nisi ut, scelerisque ipsum. Cras id orci eget metus congue ullamcorper eu eu eros. Nam quis dui enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin lobortis tortor dapibus, pulvinar nunc non, facilisis felis. Pellentesque lectus massa, rutrum non dignissim sit amet',
-    urlProject: 'https://manolo.com.co'
+    urlProject: 'https://manolo.com.co',
+    git: 'https://manolo.com.co'
   },
   {
     name: 'App podcast2',
-    img: 'podcast.png',
+    img: 'podcastPlatzi.png',
     excerpt: 'Proyecto realizado con Next JS',
     url: 'app-podcast2',
     technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Gatsby'],
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien eget quam efficitur rutrum. Suspendisse nec ornare massa. Maecenas in leo vulputate, interdum nisi ut, scelerisque ipsum. Cras id orci eget metus congue ullamcorper eu eu eros. Nam quis dui enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin lobortis tortor dapibus, pulvinar nunc non, facilisis felis. Pellentesque lectus massa, rutrum non dignissim sit amet',
-    urlProject: 'https://manolo.com.co'
+    urlProject: 'https://manolo.com.co',
+    git: 'https://manolo.com.co'
   },
   {
     name: 'Petgram2',
@@ -69,7 +73,8 @@ const listaProyectos = () => ([
     url: 'petgram2',
     technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Gatsby'],
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien eget quam efficitur rutrum. Suspendisse nec ornare massa. Maecenas in leo vulputate, interdum nisi ut, scelerisque ipsum. Cras id orci eget metus congue ullamcorper eu eu eros. Nam quis dui enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin lobortis tortor dapibus, pulvinar nunc non, facilisis felis. Pellentesque lectus massa, rutrum non dignissim sit amet',
-    urlProject: 'https://manolo.com.co'
+    urlProject: 'https://manolo.com.co',
+    git: 'https://manolo.com.co'
   }
 ])
 

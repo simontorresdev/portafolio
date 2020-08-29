@@ -7,6 +7,7 @@ function IconHtml5 () {
       height={361}
       viewBox='0 0 256 361'
       preserveAspectRatio='xMidYMid'
+      className='html'
     >
       <path
         d='M255.555 70.766l-23.241 260.36-104.47 28.962-104.182-28.922L.445 70.766h255.11z'
