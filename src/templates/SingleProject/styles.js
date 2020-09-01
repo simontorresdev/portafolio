@@ -79,9 +79,36 @@ export const ContainerTechnologys = styled.div`
     font-weight: 400;
     margin-top: 5px;
   }
+  @media (max-width: 768px) {
+    & h2{
+      margin-bottom: 30px;
+    }
+    & ul{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 50px;
+    }
+    & li svg{
+      width: 100%;
+      margin: 0;
+    }
+    & li svg.Next{
+      height: 35px;
+      width: 100%;
+    }
+  }
 `
 export const ContainerLinks = styled.div`
   & a:nth-child(2){
     margin-left: 20px;
+  }
+  @media (max-width: 768px) {
+    & button{
+      width: 100%;
+    }
+    & a:nth-child(2){
+      display: block;
+      margin: 20px 0 0 0;
+    }
   }
 `

@@ -79,4 +79,13 @@ export const CajaIcono = styled.a`
   && .gatsby-image-wrapper{
     width: 35px;
   }
+  & .antiSpam{
+    display: none;
+  }
+`
+export const CajaRedes = styled.div`
+  display: none;
+  @media (max-width: 1025px) {
+    display: block;
+  }
 `

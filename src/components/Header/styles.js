@@ -16,15 +16,3 @@ export const StyledHeader = styled.header`
     display: none;
   }
 `
-export const ContenedorRedes = styled.nav`
-  padding: 24px;
-  display: flex;
-  justify-content: space-evenly;
-  & li{
-    list-style: none;
-  }
-  & svg{
-    width: 25px;
-    height: 25px;
-  }
-`

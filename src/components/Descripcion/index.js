@@ -27,7 +27,7 @@ export const Descripcion = () => {
 
       <ColCen>
         <ContenedorImagen>
-          <Image name='simontorres.jpg' />
+          <Image name='simontorres1.jpg' />
           <section>
             <div>
               <nav>
