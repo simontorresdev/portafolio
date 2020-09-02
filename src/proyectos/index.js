@@ -44,7 +44,7 @@ const listaProyectos = () => ([
     technologys: ['Html5', 'Css3', 'Javascript', 'React'],
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien eget quam efficitur rutrum. Suspendisse nec ornare massa. Maecenas in leo vulputate, interdum nisi ut, scelerisque ipsum. Cras id orci eget metus congue ullamcorper eu eu eros. Nam quis dui enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin lobortis tortor dapibus, pulvinar nunc non, facilisis felis. Pellentesque lectus massa, rutrum non dignissim sit amet',
     urlProject: 'https://manolo.com.co',
-    git: 'https://manolo.com.co'
+    git: 'https://manolo.com.coa'
   },
   {
     name: 'Manolo2',
