@@ -62,9 +62,10 @@ export default function SingleProject ({ pageContext }) {
         </ul>
       </ContainerTechnologys>
       <ContainerLinks>
-        <a rel='noreferrer' href={pageContext.urlProject} target='_blank'>
-          <Boton>Ir al proyecto</Boton>
-        </a>
+        {pageContext.urlProject &&
+          <a rel='noreferrer' href={pageContext.urlProject} target='_blank'>
+            <Boton>Ir al proyecto</Boton>
+          </a>}
         {pageContext.git &&
           <a rel='noreferrer' href={pageContext.git} target='_blank'>
             <Boton>Ir al repositorio</Boton>

@@ -38,7 +38,7 @@ const listaProyectos = () => ([
   },
   {
     name: 'Platzi Badges',
-    img: 'Badges.png',
+    img: 'projectBadges.png',
     excerpt: 'Proyecto realizado con React JS',
     url: 'platzi-badges',
     technologys: ['Html5', 'Css3', 'Javascript', 'React'],
