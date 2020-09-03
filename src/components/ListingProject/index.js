@@ -21,7 +21,7 @@ export const ListingProject = ({ nombre, excerpt, icons, img, url }) => {
                       <Css3 />}
                     {icon === 'Javascript' &&
                       <Javascript />}
-                    {icon === 'React' &&
+                    {(icon === 'React' || icon === 'React Native') &&
                       <IconReact />}
                     {icon === 'Next' &&
                       <Next />}

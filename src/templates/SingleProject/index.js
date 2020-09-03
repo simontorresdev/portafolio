@@ -3,6 +3,7 @@ import { ContainerSingleProject, ContainerTechnologys, ContainerLinks, Container
 import Image from '../../components/image'
 import { Boton } from '../../styles/GlobalStyles'
 import { Html5, Css3, Javascript, IconReact, Next, Gatsby, Wordpress, Elementor } from '../../icons/tecnologias'
+import Github from '../../icons/IconGithub'
 
 export default function SingleProject ({ pageContext }) {
   const { technologys } = pageContext
@@ -72,6 +73,11 @@ export default function SingleProject ({ pageContext }) {
                 <div>
                   <IconReact />
                   <p>React Native</p>
+                </div>}
+              {icon === 'Github' &&
+                <div>
+                  <Github />
+                  <p>Github</p>
                 </div>}
             </li>
           )}

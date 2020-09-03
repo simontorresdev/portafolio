@@ -56,6 +56,14 @@ export const ContainerImagesApp = styled.div`
   && .gatsby-image-wrapper img{
     object-position: top center !important;
   }
+  @media (max-width: 768px) {
+    & .gatsby-image-wrapper{
+      width: 100%;
+    }
+    & .gatsby-image-wrapper:nth-child(2) {
+      display: none;
+    }
+  }
 `
 
 export const ContainerTechnologys = styled.div`
@@ -83,7 +91,8 @@ export const ContainerTechnologys = styled.div`
   }
   & li svg.Next path,
   & li svg.wordpress path,
-  & li svg.elementor path{
+  & li svg.elementor path,
+  & li svg.github path{
     fill: #fff;
   }
   & li svg.html path:nth-child(4),
