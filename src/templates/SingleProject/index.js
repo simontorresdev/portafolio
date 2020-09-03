@@ -68,7 +68,7 @@ export default function SingleProject ({ pageContext }) {
                   <Elementor />
                   <p>Elementor</p>
                 </div>}
-              {icon === 'React native' &&
+              {icon === 'React Native' &&
                 <div>
                   <IconReact />
                   <p>React Native</p>
