@@ -4,13 +4,6 @@ import { colors } from '../../styles/GlobalStyles'
 export const ContainerSingleProject = styled.section`
   max-width: 800px;  
   margin: 0 auto;
-  & .gatsby-image-wrapper{
-    height: 400px;
-    margin-bottom: 20px;
-  }
-  && .gatsby-image-wrapper img{
-    object-position: top center !important;
-  }
   & h3{
     font-size: 14px;
     font-weight: 600;
@@ -39,6 +32,32 @@ export const ContainerSingleProject = styled.section`
     margin-bottom: 15px;
   }
 `
+
+export const ContainerImageWeb = styled.div`
+  & .gatsby-image-wrapper{
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  && .gatsby-image-wrapper img{
+    object-position: top center !important;
+  }
+`
+export const ContainerImagesApp = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  & .gatsby-image-wrapper{
+    height: 400px;
+    margin-bottom: 20px;
+    width: 48%;
+    border-radius: 5px;
+  }
+  && .gatsby-image-wrapper img{
+    object-position: top center !important;
+  }
+`
+
 export const ContainerTechnologys = styled.div`
   margin: 30px 0;
   & h2{
@@ -85,8 +104,8 @@ export const ContainerTechnologys = styled.div`
     }
     & ul{
       display: grid;
-      grid-template-columns: repeat(2,1fr);
-      gap: 50px;
+      grid-template-columns: repeat(3,1fr);
+      gap: 30px;
     }
     & li svg{
       width: 100%;

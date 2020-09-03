@@ -37,6 +37,7 @@ export const ContenedorImagen = styled.div`
     padding: 6px;
     margin: 8px;
     display: flex;
+    list-style: none;
   }
   & section svg{
     width: 22px;

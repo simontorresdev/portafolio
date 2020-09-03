@@ -57,6 +57,9 @@ export const Col2 = styled.div`
 export const Dato = styled.div`
   display: flex;
   flex-direction: column;
+  @media (max-width: 1025px) {
+    margin-bottom: 20px;
+  }
 `
 
 export const CajaIcono = styled.a`

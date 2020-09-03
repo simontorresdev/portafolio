@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContainerSingleProject, ContainerTechnologys, ContainerLinks } from './styles'
+import { ContainerSingleProject, ContainerTechnologys, ContainerLinks, ContainerImageWeb, ContainerImagesApp } from './styles'
 import Image from '../../components/image'
 import { Boton } from '../../styles/GlobalStyles'
 import { Html5, Css3, Javascript, IconReact, Next, Gatsby, Wordpress, Elementor } from '../../icons/tecnologias'
@@ -8,7 +8,18 @@ export default function SingleProject ({ pageContext }) {
   const { technologys } = pageContext
   return (
     <ContainerSingleProject>
-      <Image name={pageContext.img} />
+
+      {(pageContext.img && !pageContext.img2) &&
+        <ContainerImageWeb>
+          <Image name={pageContext.img} />
+        </ContainerImageWeb>}
+
+      {(pageContext.img && pageContext.img2) &&
+        <ContainerImagesApp>
+          <Image name={pageContext.img} />
+          <Image name={pageContext.img2} />
+        </ContainerImagesApp>}
+
       <h3>Proyecto</h3>
       <h1>{pageContext.name}</h1>
       <p>{pageContext.description}</p>
@@ -56,6 +67,11 @@ export default function SingleProject ({ pageContext }) {
                 <div>
                   <Elementor />
                   <p>Elementor</p>
+                </div>}
+              {icon === 'React native' &&
+                <div>
+                  <IconReact />
+                  <p>React Native</p>
                 </div>}
             </li>
           )}

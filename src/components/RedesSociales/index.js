@@ -18,7 +18,7 @@ export const RedesSociales = () => {
         </a>
       </li>
       <li>
-        <a href='https://www.instagram.com/simontorresdev/' target='_blanck'>
+        <a href='https://github.com/simontorresdev/' target='_blanck'>
           <Instagram />
         </a>
       </li>
