@@ -31,7 +31,7 @@ export const Presentación = ({ boton, imagen }) => (
         <PresentacionCol3>
           <p>
             Soy un desarrollador web. Venezolano, pero actualmente viviendo en Colombia. Puedes encontrarme en las principales
-            redes sociales como @SimonTorresDev. Me dedico al desarrollo de aplicaciones web y móviles.
+            redes sociales como @simontorresdev. Me dedico al desarrollo de aplicaciones web y móviles.
           </p>
           {boton &&
             <Link to='/sobre-mi'>

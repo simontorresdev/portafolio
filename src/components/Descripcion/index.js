@@ -32,17 +32,17 @@ export const Descripcion = () => {
             <div>
               <nav>
                 <li>
-                  <a href='https://github.com/SimonATC' target='_blanck'>
+                  <a href='https://github.com/simontorresdev' target='_blanck'>
                     <Github />
                   </a>
                 </li>
                 <li>
-                  <a href='https://github.com/SimonATC' target='_blanck'>
+                  <a href='https://www.linkedin.com/in/simontorresdev/' target='_blanck'>
                     <Linkedin />
                   </a>
                 </li>
                 <li>
-                  <a href='https://github.com/SimonATC' target='_blanck'>
+                  <a href='https://www.instagram.com/simontorresdev/' target='_blanck'>
                     <Instagram />
                   </a>
                 </li>

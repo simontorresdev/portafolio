@@ -8,17 +8,17 @@ export const RedesSociales = () => {
   return (
     <ContenedorRedes>
       <li>
-        <a href='https://github.com/SimonATC' target='_blanck'>
+        <a href='https://github.com/simontorresdev' target='_blanck'>
           <Github />
         </a>
       </li>
       <li>
-        <a href='https://www.linkedin.com/in/sim%C3%B3n-torres-840815176/' target='_blanck'>
+        <a href='https://www.linkedin.com/in/simontorresdev/' target='_blanck'>
           <Linkedin />
         </a>
       </li>
       <li>
-        <a href='https://github.com/simontorresdev/' target='_blanck'>
+        <a href='https://www.instagram.com/simontorresdev/' target='_blanck'>
           <Instagram />
         </a>
       </li>
