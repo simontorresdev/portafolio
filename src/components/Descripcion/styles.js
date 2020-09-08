@@ -21,6 +21,9 @@ export const ColExt = styled.div`
     font-size: 15px;
     margin-bottom: 15px;
   }
+  & ul li{
+    margin-bottom: 20px;
+  }
   @media (max-width: 1200px) {
     width: 35%;
   }

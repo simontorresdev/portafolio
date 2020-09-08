@@ -6,6 +6,7 @@ import { Boton } from '../../styles/GlobalStyles'
 import Instagram from '../../icons/IconInstagram'
 import Linkedin from '../../icons/IconLinkedin'
 import Github from '../../icons/IconGithub'
+import { Tecnologias } from '../Tecnologias'
 
 export const Descripcion = () => {
   return (
@@ -13,16 +14,13 @@ export const Descripcion = () => {
 
       <ColExt>
         <h3>Intereses</h3>
-        <p>Soy un apasionado de la tecnología, me enfoco principalmente en el desarrollo de aplicaciones web y desarrollo de aplicaciones móviles. Actualmente estoy enfocado principalmente en javascript y el desarrollo de aplicaciones con React JS.</p>
-        <h3>Objetivos</h3>
-        <p>Siempre estoy  en busca de retos profesionales, me gusta adquirir experiencia en proyectos a gran escala y posibilidades de mucho crecimiento.</p>
+        <p>Soy un apasionado de la tecnología, enfocado en el desarrollo de aplicaciones especialmente con Javacript y su librería React . Siempre estoy en busca de retos profesionales, me gusta adquirir experiencia en proyectos a gran escala y posibilidades de mucho crecimiento.</p>
+        <p>Soy una persona autodidacta, día a día dedico tiempo para aprender en diferentes plataformas digitales como Platzi, Udemy, Youtube, documentación… en fin, cualquier plataforma que me pueda aportar conocimiento para crecer profesionalmente</p>
       </ColExt>
 
       <ColExt>
-        <h3>Aprendizaje</h3>
-        <p>Me considero una persona autodidacta, día a día dedico tiempo para aprender y así ser un mejor profesional. Hoy en día tenemos acceso a mucha educación de calidad al alcance de la mano gracias a la tecnología, aprendo de plataformas como Platzi, Udemy, Youtube, EDteam y por supuesto también de la documentación.</p>
         <h3>Tecnologías</h3>
-        <p>Algunas de las tecnologías que domino son: HTML5, CSS3, Javascript, Github, React Js, React Native, Next Js, Gatsby Js.</p>
+        <Tecnologias technologys={['Html5', 'Css3', 'Javascript', 'React', 'Gatsby', 'Next', 'Github', 'React Native', 'Wordpress', 'Elementor']} />
       </ColExt>
 
       <ColCen>
