@@ -13,13 +13,13 @@ export const MiContacto = () => {
         <Image name='contact1.png' />
 
         <Dato>
-          <CajaIcono href='mailto:simontorres979797@gmail.com'>
+          <CajaIcono href='mailto:job@simontorres.dev'>
             <div>
               <Image name='correo.png' />
             </div>
             <div>
               <h3>Correo</h3>
-              <h2>simon<span className='antiSpam'>antispan684654</span><span>torres97</span>979797<code>&#64;</code><span className='antiSpam'>antispan446</span>gmail.com</h2>
+              <h2>job<span className='antiSpam'>antispan684654</span><code>&#64;</code><span className='antiSpam'>antispan446</span>simontorres.dev</h2>
             </div>
           </CajaIcono>
         </Dato>
