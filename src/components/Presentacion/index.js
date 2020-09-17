@@ -23,7 +23,7 @@ export const Presentación = ({ boton, imagen }) => (
         <PresentacionCol1>
           <h3>Sobre mí</h3>
           <h2>Hola, soy <br /> Simón Torres</h2>
-          <h1>Frontend Developer</h1>
+          <h1>Front-end Developer</h1>
         </PresentacionCol1>
         <PresentacionCol2 />
       </PresentacionTop>
