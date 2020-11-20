@@ -1,5 +1,16 @@
 const listaProyectos = () => ([
   {
+    name: 'Growlii Tweet',
+    img: 'growlii-tweet-portada.jpg',
+    img2: 'growlii-tweet-feed2.jpg',
+    excerpt: 'Proyecto realizado con Next JS',
+    url: 'growlii-tweet',
+    technologys: ['Html5', 'Css3', 'Javascript', 'Firebase', 'React', 'Next', 'Github'],
+    description: 'Clon de twitter realizado para con Next Js para el frontend y con Firebase para el backend, los tweets se actualizan en tiempo real, es decir, si hay algún cambio en el servidor, el usuario lo vera inmediatamente. Manejamos y restringimos los accesos para que solo los usuarios logueados puedan publicar tweets.',
+    urlProject: 'https://growlii-tweet.vercel.app/',
+    git: 'https://github.com/simontorresdev/Growlii-Tweet'
+  },
+  {
     name: 'Lovicon',
     img: 'proyectolovicon.jpg',
     excerpt: 'Proyecto realizado con Gatsby JS',
@@ -37,15 +48,6 @@ const listaProyectos = () => ([
     urlProject: 'https://petgram-lwj3yh1o8.vercel.app/'
   },
   {
-    name: 'Platzi Badges',
-    img: 'projectBadges.png',
-    excerpt: 'Proyecto realizado con React JS',
-    url: 'platzi-badges',
-    technologys: ['Html5', 'Css3', 'Javascript', 'React', 'Github'],
-    description: 'Proyecto realizado para el curso de React de Platzi, en este implementamos todos los conocimientos básicos de la librería para desarrollar un sistema de control de participantes en la PlatziConf.',
-    git: 'https://github.com/simontorresdev/Platzi-Badges'
-  },
-  {
     name: 'Global',
     img: 'Global.png',
     excerpt: 'Proyecto realizado con Wordpress',
@@ -57,7 +59,7 @@ const listaProyectos = () => ([
   {
     name: 'App Platzi video',
     img: 'platzivideo1.jpg',
-    img2: 'platzivideo2.jpg',
+    img2: 'app-platzi-video 2.jpg',
     excerpt: 'Proyecto realizado con React Native',
     url: 'app-platzi-video',
     technologys: ['Html5', 'Css3', 'Javascript', 'React Native', 'Github'],

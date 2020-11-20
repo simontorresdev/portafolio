@@ -1,9 +1,27 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import { colors } from '../../styles/GlobalStyles'
 
 export const ContainerSingleProject = styled.section`
-  max-width: 800px;  
+  max-width: 1000px;  
   margin: 0 auto;
+  ${props => props.modoApp && css` 
+    display: flex;
+    align-items: center;
+    & section:nth-child(1){
+      width: 30%;
+    }
+    & section:nth-child(2){
+      width: 70%;
+      padding-left: 40px;
+    }
+    @media (max-width: 768px) {
+      flex-direction: column;
+      && section{
+        width: 100%;
+        padding: 0;
+      }
+    }
+  `}
   & h3{
     font-size: 14px;
     font-weight: 600;
@@ -33,7 +51,7 @@ export const ContainerSingleProject = styled.section`
   }
 `
 
-export const ContainerImageWeb = styled.div`
+export const ContainerImageWeb = styled.section`
   & .gatsby-image-wrapper{
     height: 400px;
     margin-bottom: 20px;
@@ -42,28 +60,12 @@ export const ContainerImageWeb = styled.div`
   && .gatsby-image-wrapper img{
     object-position: top center !important;
   }
-`
-export const ContainerImagesApp = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  & .gatsby-image-wrapper{
-    height: 400px;
-    margin-bottom: 20px;
-    width: 48%;
-    border-radius: 5px;
-  }
-  && .gatsby-image-wrapper img{
-    object-position: top center !important;
-  }
-  @media (max-width: 768px) {
+  ${props => props.modoApp && css` 
     & .gatsby-image-wrapper{
       width: 100%;
+      height: auto;
     }
-    & .gatsby-image-wrapper:nth-child(2) {
-      display: none;
-    }
-  }
+  `}
 `
 export const ContainerLinks = styled.div`
   & a:nth-child(2){

@@ -14,8 +14,8 @@ export const Descripcion = () => {
 
       <ColExt>
         <h3>Intereses</h3>
-        <p>Soy un apasionado de la tecnología, enfocado en el desarrollo de aplicaciones especialmente con Javacript y su librería React . Siempre estoy en busca de retos profesionales, me gusta adquirir experiencia en proyectos a gran escala y posibilidades de mucho crecimiento.</p>
-        <p>Soy una persona autodidacta, día a día dedico tiempo para aprender en diferentes plataformas digitales como Platzi, Udemy, Youtube, documentación… en fin, cualquier plataforma que me pueda aportar conocimiento para crecer profesionalmente</p>
+        <p>Me encanta pensar el impacto que tiene la tecnología en la vida de las personas, es increíble hacer parte de eso, siempre estoy en busca de retos profesionales, me gusta adquirir experiencia en proyectos a gran escala y posibilidades de mucho crecimiento.</p>
+        <p>Soy una persona autodidacta, me encanta el lema de Platzi “nunca pares de aprender”, día a día dedico tiempo para aprender nuevas habilidades que me ayuden a mejorar como profesional, me encanta lo que hago y es por eso que siempre quiero ir a por más.</p>
       </ColExt>
 
       <ColExt>

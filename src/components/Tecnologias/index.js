@@ -1,6 +1,6 @@
 import React from 'react'
 import { ContainerTechnologys } from './styles'
-import { Html5, Css3, Javascript, IconReact, Next, Gatsby, Wordpress, Elementor } from '../../icons/tecnologias'
+import { Html5, Css3, Javascript, IconReact, Next, Gatsby, Wordpress, Elementor, Firebase } from '../../icons/tecnologias'
 import Github from '../../icons/IconGithub'
 
 export const Tecnologias = ({ technologys, title }) => {
@@ -30,6 +30,11 @@ export const Tecnologias = ({ technologys, title }) => {
               <div>
                 <IconReact />
                 <p>React</p>
+              </div>}
+            {icon === 'Firebase' &&
+              <div>
+                <Firebase />
+                <p>Firebase</p>
               </div>}
             {icon === 'Next' &&
               <div>
